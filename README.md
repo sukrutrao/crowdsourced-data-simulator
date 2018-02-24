@@ -13,3 +13,12 @@ A simple program to simulate answers to a set of multiple choice questions by si
 * For multiple answer correct questions, answers are simulated by treating each option as a binary yes/no question.
 * Outputs can be displayed in two formats - either as a list of selected options, or as a one-hot encoding.
 
+### Requirements
+* python2.7
+* numpy 
+
+### Example
+Run
+```
+python example.py
+```
