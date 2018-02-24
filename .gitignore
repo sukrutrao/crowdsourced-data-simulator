@@ -102,3 +102,6 @@ ENV/
 
 # generated CSV files
 *.csv
+
+# Backup files
+*~
