@@ -1,5 +1,7 @@
 # Crowd-sourced Data Simulator
 
+[![Build Status](https://travis-ci.com/GoodDeeds/crowdsourced-data-simulator.svg?token=mYsgPy4zsL5qQDoHBaME&branch=master)](https://travis-ci.com/GoodDeeds/crowdsourced-data-simulator)
+
 A simple program to simulate answers to a set of multiple choice questions by simulated people
 
 ### Description
