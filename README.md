@@ -1,10 +1,10 @@
 # Crowd-sourced Data Simulator
 
-[![Build Status](https://travis-ci.com/GoodDeeds/crowdsourced-data-simulator.svg?token=mYsgPy4zsL5qQDoHBaME&branch=master)](https://travis-ci.com/GoodDeeds/crowdsourced-data-simulator)
+[![Build Status](https://travis-ci.com/GoodDeeds/crowdsourced-data-simulator.svg?branch=master)](https://travis-ci.com/GoodDeeds/crowdsourced-data-simulator)
 
-A simple program to simulate answers to a set of multiple choice questions by simulated people
+A program that simulates crowd annotations to a set of multiple choice questions
 
-### Description
+## Description
 * The program generates simulated answers to a specified number of multiple choice questions by a specified number of people of varying abilities. It also generates correct answers (randomly) to the simulated questions.
 * The multiple choices questions can have either one or more correct answer, which is specified in the input.
 * A simulated answerer is characterized by the ability to answer a given question correctly. Simulated answerers are grouped together using `PeopleTypes` objects.
@@ -15,12 +15,28 @@ A simple program to simulate answers to a set of multiple choice questions by si
 * For multiple answer correct questions, answers are simulated by treating each option as a binary yes/no question.
 * Outputs can be displayed in two formats - either as a list of selected options, or as a one-hot encoding.
 
-### Requirements
-* python2.7
-* numpy 
+## Setup 
 
-### Example
+### Prerequisites
+* Python 2.7 or 3.4-3.6
+* pip
+
+### Setting up dependencies
+All other dependencies can be installed using pip, as
+```
+$ pip install -r requirements.txt
+```
+
+## Example
 Run
 ```
-python example.py
+$ python example.py
 ```
+
+## License
+This code is provided under the [MIT License](LICENSE).
+
+## Author
+[Sukrut Rao](https://github.com/GoodDeeds/)
+
+For any issues, queries, or suggestions, please [open an issue](https://github.com/GoodDeeds/crowdsourced-data-simulator/issues/new).
