@@ -1,6 +1,6 @@
 # Crowd-sourced Data Simulator
 
-[![Build Status](https://travis-ci.com/GoodDeeds/crowdsourced-data-simulator.svg?branch=master)](https://travis-ci.com/GoodDeeds/crowdsourced-data-simulator)
+[![Build Status](https://travis-ci.com/sukrutrao/crowdsourced-data-simulator.svg?branch=master)](https://travis-ci.com/sukrutrao/crowdsourced-data-simulator)
 
 A program that simulates crowd annotations to a set of multiple choice questions
 
@@ -37,6 +37,6 @@ $ python example.py
 This code is provided under the [MIT License](LICENSE).
 
 ## Author
-[Sukrut Rao](https://github.com/GoodDeeds/)
+[Sukrut Rao](https://sukrutrao.github.io)
 
-For any issues, queries, or suggestions, please [open an issue](https://github.com/GoodDeeds/crowdsourced-data-simulator/issues/new).
+For any issues, queries, or suggestions, please [open an issue](https://github.com/sukrutrao/crowdsourced-data-simulator/issues/new).
